@@ -1,0 +1,138 @@
+body {
+    direction: rtl;
+    text-align: center;
+    background-color: #EBF4FA;
+    color: #3d5c5c;
+}
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+h1 {
+    color: #3d5c5c;
+    font-size: 30pt;
+    margin-bottom: 20px;
+}
+#khob{
+    margin-bottom: 30px;
+    margin-top:40px;
+}
+#hob li{
+    height: 80px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+    color:ghostwhite;
+    margin-bottom: 20px;
+}
+#music {
+    background-image: url("../images/music.jpeg");
+    background-repeat: no-repeat;
+    background-size: 150px 80px;
+}
+#sport {
+    background-image: url("../images/sport.jpeg");
+    background-repeat: no-repeat;
+    background-size: 150px 80px;
+}
+#travel {
+    background-image: url("../images/travel.jpeg");
+    background-repeat: no-repeat;
+    background-size: 150px 80px;
+    background-position: bottom;
+}
+#contact li{
+    display: inline-block;
+    margin: 2px 2px;
+}
+.five {
+    display: inline-block;
+    background-color: lightslategrey;
+    color: azure;
+    height: 40px;
+    width: 121px;
+    border: 1px solid black;
+    padding-top: 20px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+#cont{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#mouse{
+    margin-bottom: 20px;
+}
+#green:hover {
+    background-image: url("../images/green.jpg");
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+#mountains:hover {
+    background-image: url("../images/mountains.jpg");
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    color: black;
+}
+#kayak:hover {
+    background-image: url("../images/kayak.jpg");
+    height: 350px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+#snow:hover {
+    background-image: url("../images/snow.jpg");
+    height: 400px;
+    width: 380px;
+    background-repeat: no-repeat;
+    background-size: 380px;
+    background-position: center;
+}
+#skydive:hover {
+    background-image: url("../images/skydive.jpg");
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+#elem{
+    width: 1000px;
+}
+#cust{
+    margin: 10px;
+}
+#durian {
+    margin-top: 30px;
+    background-color: darkgreen;
+    color: azure;
+    height: 40px;
+    width: 121px;
+    border: 1px solid black;
+    padding-top: 10px;
+    position: center;
+    margin-right: 424px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+#durian:hover {
+    background-image: url("../images/durian.jpg");
+    height: 380px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: 300px;
