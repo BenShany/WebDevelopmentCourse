@@ -1,0 +1,225 @@
+body {
+    direction: rtl;
+    text-align: center;
+    background-image: url(../images/bgpai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #3d5c5c;
+   
+}
+body, html {
+    height: 100%;
+}
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+h1 {
+    color: #3d5c5c;
+    font-size: 30pt;
+    margin-bottom: 20px;
+}
+#khob{
+    margin-bottom: 30px;
+    margin-top:40px;
+}
+#hob li{
+    height: 80px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+    color:ghostwhite;
+    margin-bottom: 20px;
+}
+#music {
+    background-image: url("../images/music.jpeg");
+    background-repeat: no-repeat;
+    background-size: 150px 80px;
+    border-radius: 10%;
+}
+#sport {
+    background-image: url("../images/sport.jpeg");
+    background-repeat: no-repeat;
+    background-size: 150px 80px;
+    border-radius: 10%;
+}
+#travel {
+    background-image: url("../images/travel.jpeg");
+    background-repeat: no-repeat;
+    background-size: 150px 80px;
+    background-position: bottom;
+    border-radius: 10%;
+}
+#film {
+    background-image: url("../images/film.jpg");
+    background-repeat: no-repeat;
+    background-size: 150px 80px;
+    border-radius: 10%;
+}
+#contact{
+    margin-left: 120px;
+
+}
+   
+    #contact li {
+        display: inline-block;
+        margin: 2px 2px;
+    }
+.five {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 121px;
+    border: 2px solid black;
+    padding-top: 20px;
+    opacity: 0.5;
+    border-radius: 10%;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#cont{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: black;
+    height: 20px;
+    width: 100px;
+    background-color: white;
+    margin-right: 430px;
+    border-radius: 20%;
+    opacity: 0.8;
+    border: 2px solid black;
+  
+}
+#mouse{
+    margin-bottom: 20px;
+}
+#green:hover {
+    background-image: url("../images/green.jpg");
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    opacity: 1;
+    
+}
+#mountains:hover {
+    background-image: url("../images/mountains.jpg");
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    color: black;
+    opacity: 1;
+}
+#kayak:hover {
+    background-image: url("../images/kayak.jpg");
+    height: 350px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    opacity: 1;
+}
+#snow:hover {
+    background-image: url("../images/snow.jpg");
+    height: 400px;
+    width: 380px;
+    background-repeat: no-repeat;
+    background-size: 380px;
+    background-position: center;
+    opacity: 1;
+}
+#skydive:hover {
+    background-image: url("../images/skydive.jpg");
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    opacity: 1;
+}
+#elem {
+    width: 1000px;
+   
+}
+#cust{
+    margin: 10px;
+}
+#durian {
+    margin-top: 30px;
+    background-color: darkgreen;
+    color: white;
+    height: 40px;
+    width: 121px;
+    border: 2px solid black;
+    padding-top: 10px;
+    position: center;
+    opacity: 0.5;
+    border-radius: 10%;
+    margin-right: 424px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+    #durian:hover {
+        background-image: url("../images/durian.jpg");
+        height: 380px;
+        width: 300px;
+        background-repeat: no-repeat;
+        background-size: 300px;
+        opacity: 1;
+    }
+#nav2 {
+    clear: both;
+   float: right;
+}
+
+    #nav2 ul {
+        list-style: none;
+    }
+
+        #nav2 ul li {
+            display: block; 
+            width: 120px;
+
+        }
+
+            #nav2 ul li a {
+                display: block;
+                background-color: white;
+                color: black;
+                text-decoration: none;
+                text-align: center;
+                width: 120px;
+                height: 30px;
+                Padding-top: 10px;
+                opacity: 0.5;
+                border: 2px solid black;
+                border-radius: 20%;
+                
+            }
+                #nav2 ul li a:hover {
+                    background-color: #3097D2;
+                }
+
+                #nav2 ul li a:active {
+                    background-color: green;
+                }
+
+p{
+    font-size: 18pt;
+}
+.blue{
+    background-color: cornflowerblue;
+    border-radius: 10%;
+}
